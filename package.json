@@ -1,0 +1,21 @@
+{
+  "name": "proyecto_final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/prueba.scss css/pruebacss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benitez11Felipe/proyecto_final.git"
+  },
+  "author": "Romero Felipe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Benitez11Felipe/proyecto_final/issues"
+  },
+  "homepage": "https://github.com/Benitez11Felipe/proyecto_final#readme"
+}
