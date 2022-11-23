@@ -209,12 +209,12 @@ section#imagen_3 {
 section#imagen_4 {
     grid-area: imagen_4;
     margin: 1vw;
-    padding-top: 2vh;
+    padding-top: 25%;
 }
 section#imagen_5 {
     grid-area: imagen_5;
     margin: 1vw;
-    padding-top: 2vh;
+    padding-top: 25%;
 }
 section#imagen_6 {
     grid-area: imagen_6;
