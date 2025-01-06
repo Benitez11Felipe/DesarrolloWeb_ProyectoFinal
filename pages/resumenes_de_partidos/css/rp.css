@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: rgb(1, 1, 1);
+    color: white;
+  }
+  
+  body {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo_kyrie {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  .logo_kyrie img {
+    max-width: 15%;
+  }
+  h1 {
+    text-align: center;
+    font-size: 2.4vw;
+  }
+  h2 {
+    padding: 1%;
+    text-align: center;
+    font-size: 2vw;
+  }
+  h1,
+  h2,
+  h3 {
+    text-transform: uppercase;
+  }
+  p {
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-size: 1.2rem;
+    margin: 2vh 10vw;
+    line-height: 1.6;
+  }
+  .encabezado {
+    flex-direction: column;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+  }
+  .encabezado ul {
+    margin: 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 1%;
+    margin: 0.1% 0;
+    background-color: white;
+  }
+  .encabezado ul li {
+    margin: auto;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-align: center;
+  }
+  .encabezado ul li:after {
+    display: block;
+    content: "";
+    border-bottom: solid 1px #000000;
+    padding-bottom: 0.1%;
+    transform: scaleX(0);
+    transition: transform 300ms ease-in-out;
+  }
+  .encabezado ul li:hover:after {
+    transform: scaleX(1);
+  }
+  a {
+    color: black;
+    margin: 0;
+  }
+  a:hover {
+    color: rgb(0, 0, 0);
+  }
+  a:active {
+    color: gray;
+  }
+.fade {
+    animation-name: fade;
+    animation-duration: 3s;
+}
+iframe {
+    width: 60vw;
+    height: 70.2vh;
+    margin: auto;
+    display: block;
+    border-radius: 25px;
+    border: 0.1px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white
+}
+#video_cavaliers {
+    background-color: #6e0000;
+}
+#video_celtics {
+    background-color: #0c6400;
+}
+#video_brooklyn {
+    background-color: black;
+}
+body::-webkit-scrollbar {
+    width: 15px;
+}
+body::-webkit-scrollbar-track {
+    background: rgb(37, 37, 37);
+}
+body::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 20px;
+    border: 3.5px solid black;
+}
+footer {
+  background-color: white;
+  text-align: center;
+}
+#footer {
+  max-width: 99%;
+}
+/*Para moviles*/
+@media screen and (max-width: 1080px) {
+    body {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        font-family: 'Alegreya', serif;
+    }
+    .logo_kyrie {
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    .logo_kyrie img {
+        height: 30%;
+        width: 30%;
+        margin: 0%;
+    }
+    h1 {
+        color: rgb(255, 255, 255);
+        padding: 1%;
+        text-align: center;
+        font-size: 5vw;
+    }
+    h2 {
+        color: rgb(255, 255, 255);
+        padding: 1%;
+        text-align: center;
+        font-size: 4vw;
+    }
+    .encabezado {
+        overflow: hidden;
+        position: sticky;
+        top: 0%;
+        z-index: 1;
+    }
+    .encabezado ul {
+        margin: 0%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        padding: 1.5%;
+        margin-top: 0.1%;
+        margin-bottom: 0.1%;
+        background-color: white;
+    }
+    .encabezado ul li {
+        margin: auto 0.7vw;
+        color: rgb(255, 255, 255);
+        font-size: 2.7vw;
+        cursor: pointer;
+        text-align: center;
+      }
+    .encabezado ul li:after {
+        display: block;
+        content: '';
+        border-bottom: solid 1px #000000;
+        padding-bottom: 0.1%;
+        transform: scaleX(0);
+        transition: transform 300ms ease-in-out;
+    }
+    .encabezado ul li:hover:after {
+        transform: scaleX(1);
+    }
+    a {
+        color: black;
+        margin: 0;
+    }
+    a:hover {
+        color: rgb(0, 0, 0);
+    }
+    a:active {
+        color: gray;
+    }
+    .active {
+        background-color: #ffffff;
+    }
+    .fade {
+        animation-name: fade;
+        animation-duration: 3s;
+    }
+    iframe {
+        width: 90vw;
+        height: 30vh;
+        margin: auto;
+        display: block;
+        border-radius: 25px;
+        border: 0.1px solid #ffffff;
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white
+    }
+    #video_cavaliers {
+        background-color: #6e0000;
+    }
+    #video_celtics {
+        background-color: #0c6400;
+    }
+    #video_brooklyn {
+        background-color: black;
+    }
+    body::-webkit-scrollbar {
+        width: 15px;
+    }
+    body::-webkit-scrollbar-track {
+        background: rgb(37, 37, 37);
+    }
+    body::-webkit-scrollbar-thumb {
+        background-color: white;
+        border-radius: 20px;
+        border: 3.5px solid black;
+    }
+    footer {
+      background-color: white;
+      margin: auto;
+    }
+    #footer {
+      max-width: 99%;
+    }
+}
